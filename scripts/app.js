@@ -10,6 +10,14 @@ var myAngularApp = angular
         templateUrl: 'views/home.html',
         controller: 'MainCtrl'
       })
+      .when('/kidDirective', {
+        templateUrl: 'views/kid.html',
+        controller: 'KidCtrl'
+      })
+      .when('/promises', {
+        templateUrl: 'views/promises.html',
+        controller: 'PromisesCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

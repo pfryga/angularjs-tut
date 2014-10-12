@@ -9,9 +9,9 @@
     <div class="container" ng-controller="MainCtrl">
         <div class="header">
             <ul class="nav nav-pills pull-right">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li class="active"><a ng-href="#/">Home</a></li>
+                <li><a ng-href="#/kidDirective">KidDirective</a></li>
+                <li><a ng-href="#/promises">Promises</a></li>
             </ul>
             <h3 class="text-muted">AngularJS</h3>
         </div>
@@ -29,5 +29,8 @@
     <script src="bower_components/angular-route/angular-route.min.js"></script>
     <script src="scripts/app.js"></script>
     <script src="scripts/controllers/main.js"></script>
+    <script src="scripts/controllers/kid.js"></script>
+    <script src="scripts/controllers/promises.js"></script>
+    <script src="scripts/directives/kid.js"></script>
 </body>
 </html>
